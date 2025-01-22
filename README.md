@@ -8,12 +8,12 @@
 
 <p align="center">
     <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git" target="_blank">
-        <img src="docs/images/Install.png" width="400">
+        <img src="Docs/imagens/Install.png" width="400">
     </a>
 </p>
 
 ```
-<p>git --version</p>
+git --version
 ```
 ### Comandos administrativos do GIT
 ´
