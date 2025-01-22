@@ -8,7 +8,7 @@
 
 <p align="center">
     <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git" target="_blank">
-        <img src="Docs/imagens/Install.png" width="400">
+        <img src="Docs/imagens/Install.png.png" width="400">
     </a>
 </p>
 
