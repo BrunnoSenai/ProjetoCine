@@ -9,13 +9,20 @@ git --version
 ´
 ### Comandos administrativos do GIT
 ´
-git status
-git add index.html or git add .
-git commit -m "Mensagem do desenvolvedor" ex: "update file README"
-git push -u origin master or main
+<p>git status</p>
+<p>git add index.html or git add .</p>
+<p>git commit -m "Mensagem do desenvolvedor" ex: "update file README"</p>
+<p>git push -u origin master or main</p>
 ´
 
 ## CAPITULO 2 -  Criando repositorio no git
-###
-
-`git status`
+### Criando a chave SSH
+´
+git config --global user.name "Nome de Usuario"
+git config --global user.email "email@usuario.com"
+ssh-keygen
+git init
+git remote add origin https://github.com/SEU-USUARIO/nome-do-repositorio.git
+git branch -M main
+git push -u origin main
+´
