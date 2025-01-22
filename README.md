@@ -48,6 +48,8 @@ ssh-keygen
 ```
 
 ### Criando o Repositorio
+
+```
 git init
 
 git remote add origin https://github.com/SEU-USUARIO/nome-do-repositorio.git
@@ -55,3 +57,4 @@ git remote add origin https://github.com/SEU-USUARIO/nome-do-repositorio.git
 git branch -M main
 
 git push -u origin main
+```
