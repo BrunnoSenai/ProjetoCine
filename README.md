@@ -5,7 +5,7 @@
     <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git"target="_blank">Instalar o Git</a>
 </P>
 ´
-git --version
+<p>git --version</p>
 ´
 ### Comandos administrativos do GIT
 ´
