@@ -16,7 +16,7 @@
 git --version // Verificar se o GIT esta instalado
 ```
 
-### Diretório de Pastas
+### Diretório de Pastas no Computador
 
 <p align="center">
     <a>
