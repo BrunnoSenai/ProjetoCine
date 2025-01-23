@@ -37,9 +37,6 @@ git push -u origin master or main
 ```
 
 ## CAPITULO 2 -  Criando repositorio no git
-### Criando o seu projeto
-<p align="justify">git 
-
 ### Criando a chave ssh
 
 ```
