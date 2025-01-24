@@ -18,7 +18,7 @@ git --version // Verificar se o GIT esta instalado
     </a>
 </p>
 
-## CAPITLO 1 - CRIAÇÃO DE DIRETORIOS DE PASTAS
+## CAPITULO 1 - CRIAÇÃO DE DIRETORIOS DE PASTAS
 
 <p align="justify">
     Entre na pasta Documentos e crie uma pasta chamada Workspace.
@@ -34,7 +34,7 @@ cd Documents - Serve para entrar na pasta Documentos
 
 mkdir Workspace - Criar Pasta
 
-cd Workspace
+cd Workspace - Serve para entrar na pasta Workspace
 ```
 <p align="center">
     <a>
@@ -42,37 +42,24 @@ cd Workspace
     </a>
 </p>
 
-### Comandos administrativos do GIT
+## CAPITULO 2 - ENTRANDO NO GITHUB
+
+<p align="justify">
+    Entre na sua conta do GitHub ou, se não tiver, crie uma.
+    Crie um repositorio ou, se já tiver um, clone o seu projeto.
+    No repositório, vá na opção < > Code e copie o link HTTPS.
+</p>
+
+<p align="center">
+    <a>
+    <img src="docs/images/Print 1.png" width="400">
+    </a>
+</p>
+
+### Comandos passo a passo desse capitulo
 
 ```
-git status
+NO TERMINAL
 
-git add index.html or git add .
-
-git commit -m "Mensagem do desenvolvedor" ex: "Update file README"
-
-git push -u origin master or main
-```
-
-## CAPITULO 2 -  Criando repositorio no git
-### Criando a chave ssh
-
-```
-git config --global user.name "Nome de Usuario"
-
-git config --global user.email "email@usuario.com"
-
-ssh-keygen
-```
-
-### Criando o Repositorio
-
-```
-git init
-
-git remote add origin https://github.com/SEU-USUARIO/nome-do-repositorio.git
-
-git branch -M main
-
-git push -u origin main
+git clone link do projeto
 ```

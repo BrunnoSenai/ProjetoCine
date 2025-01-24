@@ -53,4 +53,4 @@ autentique sua conta
 
 Cap 7 = Criando uma Branch
 git branch - listar todas as branchs
-gir branch develop -
+git branch develop - cria uma nova branch
