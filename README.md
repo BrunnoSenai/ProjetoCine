@@ -52,7 +52,7 @@ cd Workspace - Serve para entrar na pasta Workspace
 
 <p align="center">
     <a>
-    <img src="docs/images/Print 1.png" width="400">
+    <img src="docs/images/Print 1.png" width="800">
     </a>
 </p>
 
