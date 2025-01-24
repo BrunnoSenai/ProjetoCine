@@ -1,0 +1,64 @@
+Capitulo 1 = criação de pastas
+cd Documents
+mkdir Workspace - Criar Pasta
+cd Workspace
+
+Capitulo 2 = Entrando no Github
+Entrar na conta do GitHub
+Clonar Projeto
+git clone link do projeto
+
+Capitulo 3 = Configurando sua conta
+cd .. voltar diretorio 
+cd ../.. voltar dois diretórios
+git config --global user.name "Seu Nome de Usuário"
+git config --global user.email Seu email do GitHub
+
+Capitulo 4 = Criando a chave e colocando no GitHub
+ssh-keygen
+Crie uma senha
+Repita a senha criada
+Entrar no diretório ssh
+cd .ssh
+ls - para ver se a chave esta no diretório
+cat .\id_ed25519.pub
+copiar chave
+entre no perfil do GitHub
+vai nas configurações
+entre em SSH and GPC Keys
+vai em New SSH key
+Coloque sua senha com um titulo e salve
+
+Capitulo 5 = Verificação do projeto e VSCode
+vai para o seu projeto
+verifique se esta tudo la com o comando ls
+cd .git
+ls - listar arquivos
+cat .\config
+cd ..
+acesse o visual code
+code .
+abra o terminal
+baixe as extensões GitHub Copilot e GitHub Pull Request
+
+Cap 6 = Enviando seus arquivos pro GitHub
+envie seus arquivos pro github
+git status
+git add .
+git status
+git reset caso não seja o que vc queria
+git commit -m "mensagem do desenvolvedor"
+git push -u origin master
+autentique sua conta
+
+Cap 7 = Criando uma Branch
+git branch - listar todas as branchs
+gir branch develop - criar uma branch develop
+mudar a branch
+git checkout develop - mudar para outra branch
+git pull origin master - atualizar a nova branch com todas as informações da master
+
+
+
+
+
