@@ -1,6 +1,12 @@
 # MANUAL DE UTILIZAÇÃO DO SISTEMA/SITE
-## CAPITULO 1 - Configuração do git no computador
-### Instalação do GIT no computador
+## CAPITULO 0 - INSTALAÇÃO DO GIT NO COMPUTADOR
+### verificar se o Git Esta Instalado
+
+```
+git --version // Verificar se o GIT esta instalado
+```
+
+### Instalação o Git
 
 <p align="justify">
     Instalar GIT(https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)
@@ -12,12 +18,24 @@
     </a>
 </p>
 
-```
-git --version // Verificar se o GIT esta instalado
-```
+## CAPITLO 1 - CRIAÇÃO DE DIRETORIOS DE PASTAS
 
-### Diretório de Pastas no Computador
+<p align="justify">
+    Entre na pasta Documentos e crie uma pasta chamada Workspace.
+    Dentro da pasta Workspace crie uma pasta para por todos os seus projetos.
+</p>
 
+### Comandos passo a passo desse capitulo
+
+```
+NO TERMINAL
+
+cd Documents - Serve para entrar na pasta Documentos
+
+mkdir Workspace - Criar Pasta
+
+cd Workspace
+```
 <p align="center">
     <a>
     <img src="docs/images/Pastas.png" width="400">

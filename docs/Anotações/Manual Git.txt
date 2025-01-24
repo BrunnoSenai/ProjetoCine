@@ -53,12 +53,4 @@ autentique sua conta
 
 Cap 7 = Criando uma Branch
 git branch - listar todas as branchs
-gir branch develop - criar uma branch develop
-mudar a branch
-git checkout develop - mudar para outra branch
-git pull origin master - atualizar a nova branch com todas as informações da master
-
-
-
-
-
+gir branch develop -
