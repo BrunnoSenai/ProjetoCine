@@ -45,7 +45,7 @@ cd Workspace - Serve para entrar na pasta Workspace
 ## CAPITULO 2 - ENTRANDO NO GITHUB
 
 <p align="justify">
-    Entre na sua conta do GitHub ou, se não tiver, crie uma.
+    No navegador, entre na sua conta do GitHub ou, se não tiver, crie uma.
     Crie um repositorio ou, se já tiver um, clone o seu projeto.
     No repositório, vá na opção < > Code e copie o link HTTPS.
 </p>
@@ -61,5 +61,35 @@ cd Workspace - Serve para entrar na pasta Workspace
 ```
 NO TERMINAL
 
-git clone link do projeto
+git clone link do projeto - Serve para trazer seu projeto do GitHub.
 ```
+
+## CAPITULO 3 - CONFIGURANDO SUA CONTA
+
+<p align="justify">
+    Volte para o diretorio original, usando o comando cd .. .
+    Configure sua conta usando os seguintes comandos abaixo.
+    ```
+    git config --global user.name "Seu Nome de Usuário"
+    git config --global user.email Seu email do GitHub
+    ```
+    Se não acontecer nada, significa que deu tudo certo
+</p>
+
+<p align="center">
+    <a>
+    <img src="content/images/Print 3.png" width="800">
+    </a>
+</p>
+
+### Comandos passo a passo desse capitulo
+
+```
+NO TERMINAL
+
+cd .. Serve para voltar um diretório
+git config --global user.name "Seu Nome de Usuário" - Conecta o seu nome de usuário do GitHub.
+git config --global user.email Seu email do GitHub - Conecta o seu email do GitHub.
+```
+
+## CAPITULO 4 - CRIANDO A CHAVE E COLOCANDO NO GITHUB

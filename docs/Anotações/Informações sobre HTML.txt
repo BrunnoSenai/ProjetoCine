@@ -1,0 +1,11 @@
+HEAD= O elemento <head> contém metadados sobre o documento HTML. Ele geralmente inclui informações como o título da página (<title>), links para arquivos de estilo CSS, scripts JavaScript, e outras informações que não são diretamente exibidas na página, mas são necessárias para o funcionamento da página.
+
+BODY= O <body> contém o conteúdo visível da página, ou seja, tudo o que será exibido para o usuário final, como texto, imagens, vídeos, e outros elementos.
+
+HEADER= O <header> geralmente contém informações introdutórias ou de navegação, como o título do site, logotipo, menu de navegação, etc. Pode ser utilizado no início de uma página ou em seções específicas.
+
+NAV= O <nav> é usado para definir seções de navegação. Ele é utilizado para agrupar links de navegação, como menus, barras de navegação, etc.
+
+MAIN= O <main> representa o conteúdo principal da página, aquele que é diretamente relacionado ao objetivo do site. A ideia é que o conteúdo dentro de <main> seja único para cada página e não seja repetido em outras partes do site, como em cabeçalhos ou rodapés.
+
+FOOTER= O <footer> é utilizado para definir o rodapé da página. Ele geralmente contém informações de copyright, links de contato, links para redes sociais, etc.
