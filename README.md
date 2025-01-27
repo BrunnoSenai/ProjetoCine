@@ -14,7 +14,7 @@ git --version // Verificar se o GIT esta instalado
 
 <p align="center">
     <a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git" target="_blank">
-        <img src="docs/images/Git.png" width="400">
+        <img src="content/images/Git.png" width="400">
     </a>
 </p>
 
@@ -38,7 +38,7 @@ cd Workspace - Serve para entrar na pasta Workspace
 ```
 <p align="center">
     <a>
-    <img src="docs/images/Pastas.png" width="400">
+    <img src="content/images/Pastas.png" width="400">
     </a>
 </p>
 
@@ -52,7 +52,7 @@ cd Workspace - Serve para entrar na pasta Workspace
 
 <p align="center">
     <a>
-    <img src="docs/images/Print 1.png" width="800">
+    <img src="content/images/Print 1.png" width="800">
     </a>
 </p>
 

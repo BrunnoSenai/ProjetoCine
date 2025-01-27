@@ -37,7 +37,7 @@ ls - listar arquivos
 cat .\config
 cd ..
 acesse o visual code
-code .
+code . (obs: Em caso de algum erro, reinicie o pc. Caso não funcione, pesquise no Google)
 abra o terminal
 baixe as extensões GitHub Copilot e GitHub Pull Request
 
@@ -53,4 +53,9 @@ autentique sua conta
 
 Cap 7 = Criando uma Branch
 git branch - listar todas as branchs
-git branch develop - cria uma nova branch
+git branch develop - cria uma nova branch develop
+git checkout develop - troca para a branch criada
+git pull origin "Escolha sua branch" - puxa todos os codigos para a branch escolhida
+
+
+
