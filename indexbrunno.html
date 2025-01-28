@@ -1,195 +1,324 @@
 <!DOCTYPE html>
+<!--DOCTYPE html = "Este termo e utilizado para identificar o tipo deste arquivo" -->
 <html lang="pt-br">
+<!--HTML = "Define o início de um documento HTML."-->
+
+<!--Inicio da HEAD = "Contém metadados e configurações da página."-->
 <head>
     <meta charset="UTF-8">
+    <!--META = "Define metadados da página, como charset e viewport."-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--VIEWPORT = "Controla a escala e o dimensionamento em dispositivos móveis."-->
+    <!--NAME = "Atributo usado para dar um nome a elementos, geralmente em formulários, para identificar os dados enviados."-->
     <title>PortalMídia.com</title>
+    <!--TITLE = "Define o título exibido na aba do navegador."-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--LINK = "Relaciona a página a recursos externos, como CSS e JS."-->
+    <!--STYLESHEET = "Refere-se a um arquivo CSS que define o estilo visual da página."-->
     <link rel="stylesheet" type="text/css" href="/css/stylesbrunno.css">
+    <!--TYPE = "Define o tipo de mídia ou formato do recurso."-->
 </head>
+<!--Fim da HEAD-->
 
+<!--Inicio do BODY = "Contém o conteúdo visível da página."-->
 <body>
+    <!--Inicio da NAV = "Define uma seção de navegação, geralmente com links."-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--CLASS = "Atribui uma classe para estilizar ou agrupar elementos."-->
         <a class="navbar-brand" href="#">PortalMídia</a>
+        <!--a = "Cria um link para outra página ou recurso."-->
+
+        <!--Inicio do BUTTON = "Cria um botão clicável."-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
             <span class="navbar-toggler-icon"></span>
+            <!--SPAN = "Usado para agrupar ou estilizar texto inline."-->
         </button>
+        <!--Fim do BUTTON-->
+        
+        <!--Inicio do DIV = "Usado para agrupar elementos em blocos."-->
         <div class="collapse navbar-collapse" id="navbarNav">
+            <!--Inicio do UL = "Cria uma lista não ordenada (com marcadores)."-->
             <ul class="navbar-nav">
+                <!--Inicio do LI = "Define o item SOBRE O SITE"-->
                 <li class="nav-item active">
                     <a class="nav-link" href="#sobre">Sobre o Site</a>
+                    <!--HREF = "Especifica o destino de um link."-->
                 </li>
-
+                <!--Fim do LI-->
+                
+                <!--Inicio do LI = "Define o item FILMES"-->
                 <li class="nav-item">
                     <a class="nav-link" href="#filmes">Filmes</a>
                 </li>
-
+                <!--Fim do LI-->
+                
+                <!--Inicio do LI = "Define o item MÚSICAS"-->
                 <li class="nav-item">
                     <a class="nav-link" href="#musicas">Músicas</a>
                 </li>
-
+                <!--Fim do LI-->
+                
+                <!--Inicio do LI = "Define o item JOGOS"-->
                 <li class="nav-item">
                     <a class="nav-link" href="#games">Jogos</a>
                 </li>
+                <!--Fim do LI-->
                 
+                <!--Inicio do LI = "Define o item CADASTRO"-->
                 <li class="nav-item">
                     <a class="nav-link" href="#cadastro">Cadastro</a>
                 </li>
+                <!--Fim do LI-->
                 
             </ul>
+            <!--Fim do UL-->
+            
+            <!--Inicio do FORM dentro do NAV = "É usado para criar um formulário de busca ou outro tipo de entrada dentro da área de navegação da página."-->
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <!--INPUT = "Cria um campo de entrada para o usuário preencher."-->
+                
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-              </form>
+                <!--BUTTON = "Cria o botão PESQUISAR."-->
+            </form>
+            <!--Fim do FORM-->
         </div>
     </nav>
-
+    <!--Fim da NAV-->
+    
+    <!--Inicio do HEADER = "Define a seção de cabeçalho da página, geralmente contendo o título, logo e navegação."-->
     <header>
         <h1>PortalMídias</h1>
-        <p>Notícias, entretenimento, cultura, tendências, atualizações.</p>
-    </header>
-
-    <div class="container">
-        <section class="intro" id="sobre">
-            <h2>Sobre o Site</h2>
-            <p>O PortalMídia é um site dedicado a fornecer as últimas notícias, análises e tendências sobre o mundo da mídia, entretenimento e cultura. Com uma abordagem dinâmica, o portal traz conteúdos atualizados sobre filmes, séries, música, tecnologia e eventos de relevância, além de oferecer artigos e insights sobre o impacto da mídia na sociedade. Ideal para quem busca estar por dentro das principais novidades e debates do universo digital e da comunicação.</p>
-        </section>
-
-        <section class="category" id="filmes">
-            <h2>Filmes</h2>
-            <div class="grid">
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=5UVaA6SGRZA" target="_blank">
-                    <img src="https://lumiere-a.akamaihd.net/v1/images/image_7729def7.jpeg?region=0,0,540,810" alt="Filme 1">
-                    </a>
-                    <h3>Guardiões da Galáxia Vol. 3</h3>
-                    <p>O encerramento da trilogia dos Guardiões da Galáxia no Universo Cinematográfico Marvel, com direção de James Gunn.</p>
-                </div>
-
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=va-7FEpUHVQ" target="_blank">
-                    <img src="https://br.web.img3.acsta.net/pictures/24/02/28/15/47/0426941.png" alt="Filme 2">
-                    </a>
-                    <h3>Godzilla vs. Kong: O Novo Império</h3>
-                    <p>Godzilla e Kong se unem para enfrentar uma nova ameaça monstruosa que surge da Terra.</p>
-                </div>
-
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=A2SjVRziC7M" target="_blank">
-                    <img src="https://themoviespoiler.com/wp-content/uploads/2022/04/sonic_the_hedgehog_two.jpg" alt="Filme 2">
-                    </a>
-                    <h3>Sonic 2 - O Filme</h3>
-                    <p>Sonic e Tails enfrentam Dr. Robotnik e Knuckles para impedir planos malignos e salvar o mundo.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="category" id="musicas">
-            <h2>Músicas</h2>
-            <div class="grid">
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/5/52/Linkin_in_the_end_single_cover.png" alt="Música 1">
-                    </a>
-                    <h3>In The End (Linkin Park)</h3>
-                    <p>"In The End" expressa frustração, luta interna e a sensação de que, apesar dos esforços, nada muda.</p>
-                </div>
-
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=nkll0StZJLA" target="_blank">
-                    <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/6/f/1/7/458521697490237.jpg" alt="Música 2">
-                    </a>
-                    <h3>My Demons (Starset)</h3>
-                    <p>"My Demons" aborda a luta interna contra os próprios medos e a busca por superação pessoal.</p>
-                </div>
-
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=1mjlM_RnsVE" target="_blank">
-                    <img src="https://i.scdn.co/image/ab67616d0000b27389f8d16ffe15fccfa0a7e31d" alt="Música 2">
-                    </a>
-                    <h3>Monster (Skillet)</h3>
-                    <p>"Monster" descreve a luta interna contra forças sombrias e o despertar de um monstro interior.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="category" id="games">
-            <h2>Jogos</h2>
-            <div class="grid">
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=MmB9b5njVbA" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png" alt="Jogo 1">
-                    </a>
-                    <h3>Minecraft</h3>
-                    <p>Jogo de construção e aventura, onde os jogadores exploram e criam em um mundo aberto de blocos.</p>
-                </div>
-
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=MMUbcBbIXIA&rco=1" target="_blank">
-                    <img src="https://dw0jruhdg6fis.cloudfront.net/producao/29087563/G/co25w7.jpg" alt="Jogo 2">
-                </a>
-                    <h3>God Of War 3</h3>
-                    <p>Kratos busca vingança contra os deuses do Olimpo em uma épica jornada de ação.</p>
-                </div>
+        <!--h1 = "Define um cabeçalho, com <h1> a <h6> representando diferentes níveis de importância (1 sendo o mais importante)."-->
+            <p>Notícias, entretenimento, cultura, tendências, atualizações.</p>
+            <!--p = "Cria um parágrafo de texto."-->
+        </header>
+        <!--Fim da NAV-->
+        
+        <div class="container">
+            <!--CONTAINER = "Usado para agrupar e centralizar o conteúdo na página, geralmente com classes no CSS."-->
+            <!--Inicio do SECTION = "Define uma seção distinta de conteúdo dentro de uma página."-->
+            <section class="intro" id="sobre">
+                <!--CONTAINER = "Usado para agrupar e centralizar o conteúdo na página, geralmente com classes no CSS."-->
+                <!--ID = "Atribui um identificador único a um elemento, permitindo estilização ou manipulação específica via CSS ou JavaScript."-->
+                <!--INTRO = "Geralmente usado como uma classe ou id para estilizar ou identificar uma seção de introdução na página."-->
+                <h2>Sobre o Site</h2>
+                <!--h2 = "Define o cabeçalho SOBRE O SITE."-->
+                <p>O PortalMídia é um site dedicado a fornecer as últimas notícias, análises e tendências sobre o mundo da mídia, entretenimento e cultura. Com uma abordagem dinâmica, o portal traz conteúdos atualizados sobre filmes, séries, música, tecnologia e eventos de relevância, além de oferecer artigos e insights sobre o impacto da mídia na sociedade. Ideal para quem busca estar por dentro das principais novidades e debates do universo digital e da comunicação.</p>
+                <!--p = "Cria o parágrafo que explica sobre o site."-->
+            </section>
+            <!--Fim da SECTION-->
+            
+            <!--Inicio do SECTION = "Essa section representa a parte de filmes"-->
+            <section class="category" id="filmes">
+                <!--CATEGORY = "Geralmente usado como classe ou id para agrupar conteúdo relacionado a uma categoria específica, como em listas ou filtros."-->
+                <h2>Filmes</h2>
+                <!--h2 = "Define o cabeçalho FILMES."-->
                 
-                <div class="card">
-                    <a href="https://www.youtube.com/watch?v=UKA7JkV51Jw" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/2/25/Half-Life_2_cover.jpg/220px-Half-Life_2_cover.jpg" alt="Jogo 2">
-                </a>
-                    <h3>Half-Life 2</h3>
-                    <p>É um jogo de tiro em primeira pessoa, onde o protagonista Gordon Freeman enfrenta alienígenas.</p>
-                </div>
-            </div>
-        </section>
+                <!--Incio do DIV = "Define o GRID"-->
+                <div class="grid">
+                    <!--GRID = "Usado para criar layouts de grade (grid) no CSS, dividindo o conteúdo em linhas e colunas."-->
 
-        <section class="form-section" id="cadastro">
-            <h2>Cadastre-se para acessar mais mídias</h2>
-            <form id="registration-form">
-                <label for="name">Nome Completo:</label>
-                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    <!--Incio do DIV = "Define o CARD"-->
+                    <div class="card">
+                        <!--CARD = "Geralmente usado como classe ou id para agrupar conteúdo relacionado a uma categoria específica, como em listas ou filtros."-->
+                        
+                        <!--Inicio do <a> = "Define o trailer e a capa do filme."-->
+                            <a href="https://www.youtube.com/watch?v=5UVaA6SGRZA" target="_blank">
+                                <img src="https://lumiere-a.akamaihd.net/v1/images/image_7729def7.jpeg?region=0,0,540,810" alt="Filme 1">
+                                <!--IMG = "Exibe uma imagem na página."-->
+                            </a>
+                            <!--Fim do <a>-->
+                                <h3>Guardiões da Galáxia Vol. 3</h3>
+                                <!--h3 = "Define o titulo do filme."-->
+                                <p>O encerramento da trilogia dos Guardiões da Galáxia no Universo Cinematográfico Marvel, com direção de James Gunn.</p>
+                                <!--p = "Cria o parágrafo que possui a descrição do filme."-->
+                    </div>
+                    <!--Fim do DIV-->
+                            
+                            <!--Incio do DIV = "Define o CARD"-->
+                            <div class="card">
+                                <!--Inicio do <a> = "Define o trailer e a capa do filme."-->
+                                    <a href="https://www.youtube.com/watch?v=va-7FEpUHVQ" target="_blank">
+                                        <img src="https://br.web.img3.acsta.net/pictures/24/02/28/15/47/0426941.png" alt="Filme 2">
+                                        <!--IMG = "Exibe uma imagem na página."-->
+                                    </a>
+                                    <!--Fim do <a>-->
+
+                                <h3>Godzilla vs. Kong: O Novo Império</h3>
+                                <!--h3 = "Define o titulo do filme."-->
+                                <p>Godzilla e Kong se unem para enfrentar uma nova ameaça monstruosa que surge da Terra.</p>
+                                <!--p = "Cria o parágrafo que possui a descrição do filme."-->
+                            </div>
+                            <!--Fim do DIV-->
+
+                    <!--Incio do DIV = "Define o CARD"-->                
+                    <div class="card">
+                        <!--Inicio do <a> = "Define o trailer e a capa do filme."-->
+                            <a href="https://www.youtube.com/watch?v=A2SjVRziC7M" target="_blank">
+                                <img src="https://themoviespoiler.com/wp-content/uploads/2022/04/sonic_the_hedgehog_two.jpg" alt="Filme 2">
+                                <!--IMG = "Exibe uma imagem na página."-->
+                            </a>
+                            <!--Fim do <a>-->
+                        <h3>Sonic 2 - O Filme</h3>
+                        <!--h3 = "Define o titulo do filme."-->
+                        <p>Sonic e Tails enfrentam Dr. Robotnik e Knuckles para impedir planos malignos e salvar o mundo.</p>
+                        <!--p = "Cria o parágrafo que possui a descrição do filme."-->
+                    </div>
+                    <!--Fim do DIV-->
+                </div>
+                <!--Fim do DIV-->
+            </section>
+            <!--Fim da SECTION-->
             
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            <!--Inicio do SECTION = "Essa section representa a parte de Músicas"-->
+            <section class="category" id="musicas">
+                <h2>Músicas</h2>
+                <!--h2 = "Define o cabeçalho FILMES."-->
+                
+                <!--Inicio do DIV = "Define o GRID."-->
+                <div class="grid">
+                    <!--Inicio do DIV = "Define o CARD"-->
+                    <div class="card">
+                        <!--Inicio do <a> = "Define o clipe e a capa da música"-->
+                            <a href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/pt/5/52/Linkin_in_the_end_single_cover.png" alt="Música 1">
+                                <!--IMG = "Exibe uma imagem na página."-->
+                            </a>
+                            <!--Fim do <a>-->
+                                <h3>In The End (Linkin Park)</h3>
+                                <!--h3 = "Define o titulo da música e a banda."-->
+                                <p>"In The End" expressa frustração, luta interna e a sensação de que, apesar dos esforços, nada muda.</p>
+                                <!--p = "Exibe uma breve descrição da música"-->
+                            </div>
+                            <!--Fim do DIV-->
+                            
+                            <!--Inicio do DIV = "Define o CARD"-->
+                            <div class="card">
+                                <!--Inicio do <a> = "Define o clipe e a capa da música"-->
+                                    <a href="https://www.youtube.com/watch?v=nkll0StZJLA" target="_blank">
+                                        <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/6/f/1/7/458521697490237.jpg" alt="Música 2">
+                                        <!--IMG = "Exibe uma imagem na página."-->
+                                    </a>
+                                    <!--Fim do <a>-->
+                                        <h3>My Demons (Starset)</h3>
+                                        <!--h3 = "Define o titulo da música e a banda."-->
+                                        <p>"My Demons" aborda a luta interna contra os próprios medos e a busca por superação pessoal.</p>
+                                        <!--p = "Exibe uma breve descrição da música"-->
+                                    </div>
+                                    <!--Fim do DIV-->
+                                    
+                                    <!--Inicio do DIV = "Define o CARD"-->
+                                    <div class="card">
+                                        <!--Inicio do <a> = "Define o clipe e a capa da música"-->
+                                            <a href="https://www.youtube.com/watch?v=1mjlM_RnsVE" target="_blank">
+                                                <img src="https://i.scdn.co/image/ab67616d0000b27389f8d16ffe15fccfa0a7e31d" alt="Música 2">
+                                                <!--IMG = "Exibe uma imagem na página."-->
+                                            </a>
+                                            <!--Fim do <a>-->
+                                                <h3>Monster (Skillet)</h3>
+                                                <!--h3 = "Define o titulo da música e a banda."-->
+                                                <p>"Monster" descreve a luta interna contra forças sombrias e o despertar de um monstro interior.</p>
+                                                <!--p = "Exibe uma breve descrição da música"-->
+                                            </div>
+                                        </div>
+                                        <!--Fim do DIV-->
+                                    </section>
+                                    <!--Fim da SECTION-->
+                                    
+                                    <!--Inicio do SECTION = "Essa section representa a parte de Jogos"-->
+                                    <section class="category" id="games">
+                                        <h2>Jogos</h2>
+                                        <!--h2 = "Define o cabeçalho FILMES."-->
+                            <div class="grid">
+                                <div class="card">
+                                    <a href="https://www.youtube.com/watch?v=MmB9b5njVbA" target="_blank">
+                                        <img src="https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png" alt="Jogo 1">
+                                        <!--IMG = "Exibe uma imagem na página."-->
+                                    </a>
+                                    <h3>Minecraft</h3>
+                                    <p>Jogo de construção e aventura, onde os jogadores exploram e criam em um mundo aberto de blocos.</p>
+                                </div>
+                                
+                                <div class="card">
+                                    <a href="https://www.youtube.com/watch?v=MMUbcBbIXIA&rco=1" target="_blank">
+                                        <img src="https://dw0jruhdg6fis.cloudfront.net/producao/29087563/G/co25w7.jpg" alt="Jogo 2">
+                                        <!--IMG = "Exibe uma imagem na página."-->
+                                    </a>
+                                    <h3>God Of War 3</h3>
+                                    <p>Kratos busca vingança contra os deuses do Olimpo em uma épica jornada de ação.</p>
+                                </div>
+                                
+                                <div class="card">
+                                    <a href="https://www.youtube.com/watch?v=UKA7JkV51Jw" target="_blank">
+                                        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/2/25/Half-Life_2_cover.jpg/220px-Half-Life_2_cover.jpg" alt="Jogo 2">
+                                        <!--IMG = "Exibe uma imagem na página."-->
+                                    </a>
+                                    <h3>Half-Life 2</h3>
+                                    <p>É um jogo de tiro em primeira pessoa, onde o protagonista Gordon Freeman enfrenta alienígenas.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <!--Fim da SECTION-->
+                        
+                        <section class="form-section" id="cadastro">
+                            <h2>Cadastre-se para acessar mais mídias</h2>
+                            <!--Inicio de FORM = "Define um formulário para coleta de dados do usuário."-->
+                            <form id="registration-form">
+                                <label for="name">Nome Completo:</label>
+                                <!--LABEL = "Define um rótulo para um elemento de formulário, como um campo de entrada."-->
+                                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                                <!--PLACEHOLDER = "Texto exibido dentro de um campo de entrada, indicando o que o usuário deve digitar."-->
+                                
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                                
+                                <label for="film">Qual o Seu Filme Favorito:</label>
+                                <input type="text" id="film" name="film" placeholder="Filme" required>
+                                
+                                <button type="submit">Cadastrar</button>
+                            </form>
+                            <!--Fim de FORM-->
+                        </section>
+                        
+                        <section class="form-section">
+                            <div id="user-list">
+                                <h3>Usuários Cadastrados</h3>
+                                <ul id="user-list-ul"></ul>
+                            </div>
+                        </section>
+                        
+                        <!--Inicio de SCRIPT = "Usado para incluir código JavaScript na página."-->
+                        <script>
+                            // Função para manipular o envio do formulário e atualizar a lista de usuários
+                            document.getElementById('registration-form').addEventListener('submit', function(event) {
+                                event.preventDefault(); // Previne o envio real do formulário
+                                
+                                // Pega os valores dos campos do formulário
+                                const name = document.getElementById('name').value;
+                                const email = document.getElementById('email').value;
+                                const film = document.getElementById('film').value;
+                                
+                                // Cria um novo item de lista com os dados do usuário
+                                const li = document.createElement('li');
+                                li.textContent = `Nome: ${name}, E-mail: ${email}, Filme Favorito: ${film}`;
+                                
+                                // Adiciona o novo item à lista de usuários cadastrados
+                                document.getElementById('user-list-ul').appendChild(li);
+                                
+                                // Limpa os campos do formulário
+                                document.getElementById('registration-form').reset();
+                            });
+                            </script>
+            <!--Fim de SCRIPT-->
             
-                <label for="film">Qual o Seu Filme Favorito:</label>
-                <input type="text" id="film" name="film" placeholder="Filme" required>
-            
-                <button type="submit">Cadastrar</button>
-            </form>
-        </section>
+            <!--Inicio de FOOTER = "Define o rodapé da página, geralmente contendo informações de copyright, links e contatos."-->
+            <footer>
+                <p>PortalMídias &copy; 2024. Todos os direitos reservados.</p>
+            </footer>
+            <!--Fim do FOOTER-->
+            <script src="/js/javascript.js"></script>
+        </body>
+        <!--Fim do BODY-->
+        </html>
         
-        <section class="form-section">
-            <div id="user-list">
-                <h3>Usuários Cadastrados</h3>
-                <ul id="user-list-ul"></ul>
-            </div>
-        </section>
-        
-        <script>
-            // Função para manipular o envio do formulário e atualizar a lista de usuários
-            document.getElementById('registration-form').addEventListener('submit', function(event) {
-                event.preventDefault(); // Previne o envio real do formulário
-        
-                // Pega os valores dos campos do formulário
-                const name = document.getElementById('name').value;
-                const email = document.getElementById('email').value;
-                const film = document.getElementById('film').value;
-        
-                // Cria um novo item de lista com os dados do usuário
-                const li = document.createElement('li');
-                li.textContent = `Nome: ${name}, E-mail: ${email}, Filme Favorito: ${film}`;
-        
-                // Adiciona o novo item à lista de usuários cadastrados
-                document.getElementById('user-list-ul').appendChild(li);
-        
-                // Limpa os campos do formulário
-                document.getElementById('registration-form').reset();
-            });
-        </script>
-        
-        <footer>
-            <p>PortalMídias &copy; 2024. Todos os direitos reservados.</p>
-        </footer>
-        <script src="/js/javascript.js"></script>
-    </body>
-</html>

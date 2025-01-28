@@ -93,3 +93,30 @@ git config --global user.email Seu email do GitHub - Conecta o seu email do GitH
 ```
 
 ## CAPITULO 4 - CRIANDO A CHAVE E COLOCANDO NO GITHUB
+
+<p align="justify">
+    Após configurar sua conta no terminal, crie sua chave SSH com o comando ssh-keygen.
+    Logo em seguida, ira pedir uma senha, crie uma e depois repita a senha criada.
+</p>
+
+<p align="center">
+    <a>
+    <img src="content/images/Print 4.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Com a chave SSH criada, navegue até a pasta ssh utilizando o comando cd .ssh .
+    Utilize o comando ls para verificar se a chave esta na pasta ssh.
+    Use o comando cat .\id_ed25519.pub para ler a chave.
+</p>
+
+<p align="center">
+    <a>
+    <img src="content/images/Chave SSH.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Copie a chave SSH e entre na sua conta do GitHub, clique no icone do seu perfil e vá para settings.
+</p>
