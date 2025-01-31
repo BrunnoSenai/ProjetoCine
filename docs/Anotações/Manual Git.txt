@@ -57,5 +57,8 @@ git branch develop - cria uma nova branch develop
 git checkout develop - troca para a branch criada
 git pull origin "Escolha sua branch" - puxa todos os codigos para a branch escolhida
 
+Cap Bonus
+
+
 
 
