@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f7fa;
-    background-image: url('https://i.pinimg.com/736x/68/57/3e/68573e124c193cb159076f7d14759329.jpg');
+    background-image: url('https://images4.alphacoders.com/132/1322297.jpeg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ h1, h2 {
 .intro {
     text-align: center;
     margin-bottom: 30px;
-    background: #edd7f769; 
+    background: #edd7f7b0; 
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ h1, h2 {
 }
 
 .card {
-    background: #eb87e663;
+    background: #eb87e6af;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
