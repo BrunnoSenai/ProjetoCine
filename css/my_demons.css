@@ -94,7 +94,7 @@ h1, h2 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    max-width: 280px;
+    max-width: 300px;
     text-align: center;
 }
 
@@ -105,7 +105,7 @@ h1, h2 {
 
 .card img {
     width: 300px;
-    height: 400px;
+    height: 300px;
     
 }
 

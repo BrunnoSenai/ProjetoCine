@@ -1,0 +1,45 @@
+<div class="container">
+<section class="form-section">
+<h1>Filme Favorito</h1>
+<form action="#">
+<fieldset>
+<legend>Selecione seus filmes favoritos</legend>                                                       
+<label for="sonic">
+<input type="checkbox" id="sonic" name="filmes" value="Sonic">
+Sonic
+</label>
+                                                                            
+<label for="godzilla">
+<input type="checkbox" id="godzilla" name="filmes" value="Godzilla">
+Godzilla
+</label>
+</fieldset>
+</form>
+</section>
+</div>
+                                                            
+<div class=”container”>
+<section class="form-section">
+<h1>Opiniões</h1>
+<form action="#">
+<label for="fobservacoes">Observações:</label><br>
+<textarea type="textarea" id="fobservacoes" name="fobservacoes" rows="4"></textarea>
+</form>
+</section>	
+</div>
+
+<div class=”container”>
+<section class="form-section">
+<h1>Formulário</h1>
+<form action="#">
+<label for="ftel">Telefnone:</label><br>
+<input type="tel" id="ftel" name="ftel" value="( ) 0000-0000"><br>
+<label for="fsearch">Buscar:</label><br>
+<input type="search" id="fbuscar" name="fbuscar" value="Buscar"><br>
+<label for="femail">Email:</label><br>
+<input type="email" id="femail" name="femail" value="email@site.com"><br>
+<label for="furl">Url:</label><br>
+<input type="url" id="furl" name="furl" value="http://www.site.com.br"><br>
+</form>
+</section>	
+</div>

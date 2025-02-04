@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f7fa;
-    background-image: url('https://img.merchbar.com/product/cdified/upc/50/75678959509.jpg?q=40&fit=crop&crop=faces,entropy&w=1600&h=900');
+    background-image: url('https://theculturednerd.org/wp-content/uploads/2020/08/Linkin-Park-Hybrid-theory-wallpaper2.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #a3a3a3d5; 
+    background-color: #ff000098; 
     color: white;
     text-align: center;
     padding: 30px 20px;
@@ -37,7 +37,7 @@ header {
 }
 
 .elenco-table th {
-    background-color: #2220ac;
+    background-color: #ff0000;
     color: white;
 }
 
@@ -50,7 +50,7 @@ header {
 }
 
 .elenco-table td {
-    color: #000; /* Alterado para preto para mais contraste */
+    color: #000000; /* Alterado para preto para mais contraste */
 }
 
 h1, h2 {
@@ -69,7 +69,7 @@ h1, h2 {
     text-align: center;
     margin-bottom: 30px;
     background: #ffffff;
-    background-color: #5f60648f;
+    background-color: #00000042;
     color: #ffffff; /* Aqui você altera a cor do texto da classe intro */ 
     padding: 20px;
     border-radius: 12px;
@@ -89,12 +89,12 @@ h1, h2 {
 }
 
 .card {
-    background: #0059ffdc;
+    background: #ff0000dc;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    max-width: 280px;
+    max-width: 300px;
     text-align: center;
 }
 
@@ -105,14 +105,14 @@ h1, h2 {
 
 .card img {
     width: 300px;
-    height: 400px;
+    height: 300px;
     
 }
 
 .card h3 {
     margin: 15px 0;
     font-size: 1.25rem; 
-    color: #333;
+    color: #000000;
 }
 
 .card p {
