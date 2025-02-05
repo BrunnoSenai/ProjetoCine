@@ -1,0 +1,45 @@
+@import url('https://developer.mozilla.org/en-US/docs/Web/CSS/background-position');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers.com/images/hd/minecraft-cloudy-sunrise-nature-xpc7uzwsfbga70xp.jpg'); /* Imagem de fundo aleatória */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center center; /* Centraliza a imagem */
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://wallpapers.com/images/hd/creeper-face-cool-minecraft-vgjes48klxwl7u5v.jpg'); /* Imagem de fundo do header */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #d7e9f7; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

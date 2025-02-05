@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f7fa;
-    background-image: url('https://wallpapers.com/images/hd/minecraft-pc-large-tree-fyfxt6h3puszplkc.jpg');
+    background-image: url('https://i.redd.it/cool-half-life-wallpapers-v0-ezd2cbysf5d91.jpg?width=1920&format=pjpg&auto=webp&s=80e455aa7da1e78ee91cf80dafe5da5932a9922a');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #00ff1591; 
+    background-color: #ffee0091; 
     color: rgb(58, 56, 56);
     text-align: center;
     padding: 30px 20px;
@@ -23,7 +23,7 @@ header {
 .intro {
     text-align: center;
     margin-bottom: 30px;
-    background: #dbf7d7b0; 
+    background: #f7f5d7b0; 
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ header {
 }
 
 .elenco-table th {
-    background-color: #4caf658e;
+    background-color: #afa54c8e;
     color: rgb(255, 255, 255);
 }
 
@@ -88,7 +88,7 @@ h1, h2 {
 }
 
 .card {
-    background: #8aeb87af;
+    background: #e4eb87af;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;

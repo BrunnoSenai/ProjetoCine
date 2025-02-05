@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    background-image: url('');
+    background-image: url('https://img.freepik.com/fotos-gratis/colagem-de-fundo-de-filme_23-2149876027.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -24,5 +24,30 @@ header {
     color: white;
     text-align: center;
     padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem; 
+}
+
+.navbar a {
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #d7e9f7; 
+    padding: 20px;
+    border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
