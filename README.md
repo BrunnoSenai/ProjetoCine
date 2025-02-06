@@ -181,3 +181,58 @@ cat .\id_ed25519.pub - Serve para ler a chave
 <p align="justify">
     Dentro do VSCode, baixe as extensões GitHub Copilot e GitHub Pull Request
 </p>
+
+### Comandos passo a passo desse capitulo
+
+```
+NO TERMINAL
+
+cd - Navegar entre pastas.
+ls - Lista todos os arquivos que estão na pasta.
+cat .\config - Lê as configurações.
+code . - Acessa o seu projeto no VSCode direto do terminal.
+```
+
+## CAPITULO 6 - ENVIANDO SEUS ARQUIVOS PARA O GITHUB
+
+<p align="justify">
+    No VSCode, abra o terminal.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Terminal VSCode.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    No terminal, utilize o comando 'git status' para verificar as alterações feitas.
+    Depois, utilize o comando 'git add .' para adicionar os arquivos para o GitHub. Caso tenha cometido algum erro, utilize o comando 'git reset'.
+    Utilize o comando 'git commit -m "mensagem do desenvolvedor"' para adicionar uma mensagem ao envio.
+    Para finalizar, utilize o comando 'git push -u origin sua branch atual' para enviar seus arquivos pro GitHub, vai pedir para autenticar a sua conta.
+    Vai para o GitHub e verifica se seus codigos foram enviados.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/VSCode Terminal 01.png" width="800">
+    </a>
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/VSCode Terminal 02.png" width="800">
+    </a>
+</p>
+
+### Comandos passo a passo desse capitulo
+
+```
+NO TERMINAL
+
+git status - Verifica as alterações 
+git add . - Adiciona os arquivos no GitHub
+git reset - Caso tenha cometido algum erro
+git commit -m "mensagem do desenvolvedor" - Adiciona uma mensagem
+git push -u origin master - Envia os arquivos pro GitHub
+```
