@@ -138,13 +138,17 @@ git config --global user.email Seu email do GitHub - Conecta o seu email do GitH
 </p>
 
 <p align="justify">
-    Vá em New SSH key, cole sua chave, adicione um titulo e salve.
+    Vá em New SSH key.
 </p>
 
 <p align="center">
     <a>
     <img src="/content/images/Print 10.png" width="800">
     </a>
+</p>
+
+<p align="justify">
+    Cole sua chave, adicione um titulo e salve.
 </p>
 
 <p align="center">
@@ -208,15 +212,18 @@ code . - Acessa o seu projeto no VSCode direto do terminal.
 <p align="justify">
     No terminal, utilize o comando 'git status' para verificar as alterações feitas.
     Depois, utilize o comando 'git add .' para adicionar os arquivos para o GitHub. Caso tenha cometido algum erro, utilize o comando 'git reset'.
-    Utilize o comando 'git commit -m "mensagem do desenvolvedor"' para adicionar uma mensagem ao envio.
-    Para finalizar, utilize o comando 'git push -u origin sua branch atual' para enviar seus arquivos pro GitHub, vai pedir para autenticar a sua conta.
-    Vai para o GitHub e verifica se seus codigos foram enviados.
 </p>
 
 <p align="center">
     <a>
     <img src="/content/images/VSCode Terminal 01.png" width="800">
     </a>
+</p>
+
+<p align="justify">
+    Utilize o comando 'git commit -m "mensagem do desenvolvedor"' para adicionar uma mensagem ao envio.
+    Para finalizar, utilize o comando 'git push -u origin sua branch atual' para enviar seus arquivos pro GitHub, vai pedir para autenticar a sua conta.
+    Vai para o GitHub e verifica se seus codigos foram enviados.
 </p>
 
 <p align="center">
