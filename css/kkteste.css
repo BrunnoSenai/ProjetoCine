@@ -51,3 +51,47 @@ h1, h2 {
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.category {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: #87ceeb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 280px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.25rem; 
+    color: #333;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #000000;
+    margin: 0 10px 20px;
+}

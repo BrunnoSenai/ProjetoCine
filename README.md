@@ -47,7 +47,7 @@ cd Workspace - Serve para entrar na pasta Workspace
 <p align="justify">
     No navegador, entre na sua conta do GitHub ou, se não tiver, crie uma.
     Crie um repositorio ou, se já tiver um, clone o seu projeto.
-    No repositório, vá na opção < > Code e copie o link HTTPS.
+    No repositório, vá na opção '< > Code' e copie o link HTTPS.
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ git clone link do projeto - Serve para trazer seu projeto do GitHub.
 ## CAPITULO 3 - CONFIGURANDO SUA CONTA
 
 <p align="justify">
-    Volte para o diretorio original, usando o comando cd .. .
+    Volte para o diretorio original, usando o comando 'cd ..'.
     Configure sua conta usando os seguintes comandos abaixo.
     ```
     git config --global user.name "Seu Nome de Usuário"
@@ -95,7 +95,7 @@ git config --global user.email Seu email do GitHub - Conecta o seu email do GitH
 ## CAPITULO 4 - CRIANDO A CHAVE E COLOCANDO NO GITHUB
 
 <p align="justify">
-    Após configurar sua conta no terminal, crie sua chave SSH com o comando ssh-keygen.
+    Após configurar sua conta no terminal, crie sua chave SSH com o comando 'ssh-keygen'.
     Logo em seguida, ira pedir uma senha, crie uma e depois repita a senha criada.
 </p>
 
@@ -106,9 +106,9 @@ git config --global user.email Seu email do GitHub - Conecta o seu email do GitH
 </p>
 
 <p align="justify">
-    Com a chave SSH criada, navegue até a pasta ssh utilizando o comando cd .ssh .
-    Utilize o comando ls para verificar se a chave esta na pasta ssh.
-    Use o comando cat .\id_ed25519.pub para ler a chave.
+    Com a chave SSH criada, navegue até a pasta ssh utilizando o comando 'cd .ssh'.
+    Utilize o comando 'ls' para verificar se a chave esta na pasta ssh.
+    Use o comando 'cat .\id_ed25519.pub' para ler a chave.
 </p>
 
 <p align="center">
@@ -119,4 +119,65 @@ git config --global user.email Seu email do GitHub - Conecta o seu email do GitH
 
 <p align="justify">
     Copie a chave SSH e entre na sua conta do GitHub, clique no icone do seu perfil e vá para settings.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Print 8.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Acesse a parte SSH and GPC keys.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Print 9.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Vá em New SSH key, cole sua chave, adicione um titulo e salve.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Print 10.png" width="800">
+    </a>
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Print 11.png" width="800">
+    </a>
+</p>
+
+### Comandos passo a passo desse capitulo
+
+```
+NO TERMINAL
+
+ssh-keygen - Cria uma chave ssh
+cd .ssh - Acessa a pasta ssh
+ls - para ver se a chave esta no diretório
+cat .\id_ed25519.pub - Serve para ler a chave
+```
+
+## CAPITULO 5 - VERIFICAÇÃO DO PROJETO E VSCODE
+
+<p align="justify">
+    Após criar sua chave ssh e coloca-lá no GitHub, acesse seu projeto no terminal usando o comando 'cd', e use o 'ls' para verificar se esta tudo lá.
+    utilize o comando 'cat .\config' para ler a pasta config para verificar.
+    Acesse o Visual Code Studio (Caso não tenha instalado, acesse o site oficial do VSCode e instale. link: https://code.visualstudio.com/) no terminal utilizando o comando 'code .'.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/VSCode.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Dentro do VSCode, baixe as extensões GitHub Copilot e GitHub Pull Request
 </p>

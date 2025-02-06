@@ -57,4 +57,4 @@ git branch develop - cria uma nova branch develop
 git checkout develop - troca para a branch criada
 git pull origin "Escolha sua branch" - puxa todos os codigos para a branch escolhida
 git merge <<feature>> master or develop - transferir todos os arquivos de uma branch para outra
-git branch -d - deleta a branch
+git branch -d - deleta a branch.

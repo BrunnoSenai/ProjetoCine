@@ -1,0 +1,140 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/God-Of-War-3-HD-Wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ff0000;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #ff000091; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #eedab4b0; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000000; /* Aqui você altera a cor do texto da classe intro */
+}
+
+/* Estilos da tabela */
+.elenco-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Removida a transparência (antes era rgba) */
+    background-color: white; /* Garante um fundo sólido para a tabela */
+}
+
+.elenco-table th, .elenco-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: white; /* Garante que todas as células tenham fundo sólido */
+}
+
+.elenco-table th {
+    background-color: #af874c8e;
+    color: rgb(255, 255, 255);
+}
+
+.elenco-table tr:nth-child(even) {
+    background-color: #e0e0e0; /* Substituído por um tom sólido de cinza */
+}
+
+.elenco-table tr:hover {
+    background-color: #cccccc; /* Removida qualquer transparência no hover */
+}
+
+.elenco-table td {
+    color: #000000; /* Alterado para preto para mais contraste */
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: #ebc387af;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 300px;
+    height: 400px;
+    
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.25rem; 
+    color: #333;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #000000;
+    margin: 0 10px 20px;
+}
+
+footer {
+    background-color: #4c516d;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+a {
+    color: #4e97d1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3a7ba1;
+    text-decoration: underline;
+}
