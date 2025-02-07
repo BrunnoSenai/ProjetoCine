@@ -241,5 +241,59 @@ git status - Verifica as alterações
 git add . - Adiciona os arquivos no GitHub
 git reset - Caso tenha cometido algum erro
 git commit -m "mensagem do desenvolvedor" - Adiciona uma mensagem
-git push -u origin master - Envia os arquivos pro GitHub
+git push -u origin "Escolha sua branch" - Empurra os arquivos pro GitHub
+git pull origin "Escolha sua branch" - Puxa todos os arquivos do GitHub para a branch escolhida
 ```
+
+## CAPITULO 7 - CRIANDO UMA BRANCH
+
+<p align="justify">
+    Após enviar ou puxar todos os arquivos pro GitHub, o proximo passo e criar uma branch para poder trabalhar os seus projetos.
+    Para iniciar, use o comando 'git branch' para listar todas as branchs.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 1.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Depois use o comando 'git branch develop' para criar uma branch develop. 
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 2.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Após criar a branch develop, utilize o comando 'git checkout develop' para trocar para a branch criada. Utilize o comando 'git branch' para verificar se trocou a branch.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 3.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Depois de criar uma branch, utilize o comando 'git merge "escolha a branch" 'para trazer todo o conteudo de uma branch escolhida para a branch criada.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 4.png" width="800">
+    </a>
+</p>
+
+<p align="justify">
+    Caso tenha criado uma branch errada, utilize o comando 'git branch -d "escolha a branch" ' para deletar a branch escolhida.
+</p>
+
+<p align="center">
+    <a>
+    <img src="/content/images/Branch 5.png" width="800">
+    </a>
+</p>
