@@ -3,18 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f7fa;
-    background-image: url('https://theculturednerd.org/wp-content/uploads/2020/08/Linkin-Park-Hybrid-theory-wallpaper2.jpg');
+    background-image: url('https://wallpapers.com/images/hd/linkin-park-4k-wti50pomv454h6ot.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: #fbff00;
+    color: #ff0000;
     line-height: 1.6;
     text-align: center;
 }
 
 header {
     background-color: #ff000098; 
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 30px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
