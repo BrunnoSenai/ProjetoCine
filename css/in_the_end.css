@@ -59,6 +59,10 @@ h1, h2 {
     font-size: 2rem; 
 }
 
+ul {
+    margin: 1px; 
+}
+
 .container {
     max-width: 1200px;
     margin: 30px auto;
@@ -69,8 +73,8 @@ h1, h2 {
     text-align: justify;
     margin-bottom: 30px;
     background: #ffffff;
-    background-color: #00000042;
-    color: #ffffff; /* Aqui você altera a cor do texto da classe intro */ 
+    background-color: #0000008f;
+    color: #e2dcdc; /* Aqui você altera a cor do texto da classe intro */ 
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
