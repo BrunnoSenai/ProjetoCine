@@ -23,9 +23,61 @@ header {
     font-size: 24px;
 }
 
-h1, h2 {
-    margin: 0;
-    font-weight: 700;
+.secao-form {
+    background: #2600ff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+}
+
+form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #66487a;
+    transition: border-color 0.3s;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 12px;
+    background-color: #4e97d1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    transition: background-color 0.03s transform;
+    background-color: #3a7ba1;
+}
+
+.resultado_soma {
+    color: #d7e9f7;
+    font-size: large;
+}
+
+h1 {
+    color: rgb(123, 131, 115);
     font-size: 2rem; 
 }
 
