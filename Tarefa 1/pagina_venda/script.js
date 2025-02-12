@@ -1,27 +1,28 @@
-const produtos =[
-    {nome: "Produto 1", preco : 10.00, image: "/image/Produto 1.jpg"},
-    {nome: "Produto 1", preco : 15.00, image: "/image/Produto 2.png"},
-    {nome: "Produto 1", preco : 25.00, image: "/image/Produto 4.jpg"}
+const produtos = [
+    {nome: "Sonic Frontiers PS5", preco: 229.90, imagem: "Produto 5.jpg"},
+    {nome: "Controle PS5", preco: 399.90, imagem: "Produto 7.jpg"},
+    {nome: "Playstation 5", preco: 4500.00, imagem: "Produto 6.jpg"}
 ];
-
-const carrinho = [];
 
 const produtosDiv = document.getElementById("produtos");
 const carrinhoLista = document.getElementById("carrinho");
 const totalSpan = document.getElementById("total");
 
+let carrinho = [];
+
 //Função para exibir os produtos na Tela
 function exibirProdutos(){
     produtos.forEach(produto => {
         const produtoDiv = document.createElement("div");
-        produtosDiv.classList.add("produto");
+        produtoDiv.classList.add("produto");
         produtoDiv.innerHTML = `
             <img src="${produto.imagem}" alt="${produto.nome}">
             <h3>${produto.nome}</h3>
             <p>Preço: R$ ${produto.preco.toFixed(2)}</p>
-            <button onclik="adicionarApCarrinho('${produto.nome}', ${produto.preco})">
+            <button onclick="adicionarAoCarrinho('${produto.nome}', ${produto.preco})">
+            Adicionar ao Carrinho</button>
         `;
-        produtoDiv.appendChild(produtoDiv);
+        produtosDiv.appendChild(produtoDiv);
     });
 }
 
@@ -31,17 +32,30 @@ function adicionarAoCarrinho(nome, preco){
     atualizarCarrinho();
 }
 
+function removerDoCarrinho(index){
+    carrinho.splice(index, 1);
+    atualizarCarrinho();
+}
+
 //Função pra atualizar a exibição do carrinho e o total
 function atualizarCarrinho(){
     carrinhoLista.innerHTML = "";
-    let total = 0;
-    carrinho.forEach(item =>{
-        const itemLista = document.createElement("li");
-        itemLista.texttextContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
-        carrinhoLista.appendChild(itemLista);
-        total += item.preco;
-    });
-    totalSpan.textContent = `Total: R$ ${total.toFixed(2)}`;
+    if (carrinho.length === 0) {
+        carrinhoLista.innerHTML = "<li>Carrinho vazio</li>";
+    } else {
+        let total = 0;
+        carrinho.forEach((item, index ) => {
+            const itemLista = document.createElement("li");
+            itemLista.innerHTML = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+            const botaoRemover = document.createElement("button");
+            botaoRemover.textContent = "Remover";
+            botaoRemover.onclick = () => removerDoCarrinho(index);
+            itemLista.appendChild(botaoRemover);
+            carrinhoLista.appendChild(itemLista);
+            total += item.preco;
+        });
+        totalSpan.textContent = `Total: R$ ${total.toFixed(2)}`;
+    }
 }
 
 //Inicializa a exibição dos produtos
