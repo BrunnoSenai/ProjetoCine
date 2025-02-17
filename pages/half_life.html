@@ -3,16 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/half_life.css">
     <title>Half-Life 2</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PortalMídia</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#criadores">Desenvolvedores</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre_jogo">Sobre o Jogo</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#enredo">Enredo</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#trailer">Trailer</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#personagens">Personagens</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <header>
     <h1><span>Jogo: </span>Half-Life 2</h1>
     </header>
     <button onclick="history.back()">Voltar</button>
     <div class="container">
-        <section class="intro">
+        <section class="intro" id="sobre">
             <h2>Sobre a Pagina</h2>
             <p>🎮 Bem-vindo à nossa página dedicada ao lendário Half-Life 2! 🌍 Mergulhe no universo de Gordon Freeman enquanto ele enfrenta a opressão dos Combine e luta para salvar a Terra. Descubra os personagens inesquecíveis como Alyx Vance e o Dr. Kleiner, que marcaram essa jornada épica. 🤖
 
@@ -28,7 +65,7 @@
         </section>
     </div>
 
-    <div class="container">
+    <div class="container" id="criadores">
         <h2>🏗️ Criadores e Desenvolvedores</h2>
         <table class="elenco-table" align="center">
             <thead>
@@ -67,7 +104,7 @@
     </div>
 
     <div class="container">
-        <section class="intro">
+        <section class="intro" id="sobre_jogo">
             <h2>Sobre Half-Life 2</h2>
             <p>Half-Life 2 é um jogo de tiro em primeira pessoa desenvolvido pela Valve Corporation e lançado em novembro de 2004. Sequência do aclamado Half-Life de 1998, o título segue o protagonista Gordon Freeman, um físico teórico que luta contra uma força alienígena conhecida como Combine, que domina a Terra. Ambientado em um mundo distópico, o jogo combina ação intensa com uma narrativa imersiva, focada na resistência humana à opressão e na luta pela sobrevivência.</p>
             <p>Half-Life 2 foi revolucionário em diversos aspectos, incluindo sua jogabilidade inovadora e a introdução de físicas realistas, graças ao motor Source, desenvolvido pela própria Valve. O jogo também foi um marco em termos de design de personagens e inteligência artificial, oferecendo uma experiência mais dinâmica e interativa. O enredo envolvente e a ausência de cutscenes tradicionais, com a história sendo contada por meio da interação direta com o ambiente e personagens, também foram amplamente elogiados.</p>
@@ -76,15 +113,15 @@
     </div>
 
     <div class="container">
-        <section class="intro">
+        <section class="intro" id="enredo">
             <h2>Enredo</h2>
             <p>Em Half-Life 2, o jogador assume o papel de Gordon Freeman, um físico teórico que, após os eventos do primeiro jogo, se encontra em um mundo dominado por uma força alienígena conhecida como Combine. A Terra foi subjugada por essas forças, e a humanidade vive sob uma tirania opressiva. Gordon, após ser "despertado" de um longo período de inatividade, se junta a um grupo de resistência formado por humanos e outros aliados, incluindo a corajosa Alyx Vance e seu pai, Eli Vance, que estão lutando para liberar o planeta do controle dos Combine. Ao longo de sua jornada, Gordon explora cidades devastadas, áreas industriais e ambientes selvagens, enfrentando uma variedade de inimigos, desde soldados humanos até criaturas alienígenas.</p>
         </section>
     </div>
 
-    <div class="container">
+    <div class="container" id="trailer">
         <h2>Trailer do Jogo</h2>
-        <iframe width="560" height="315" 
+        <iframe width="1000" height="500" 
             src="https://www.youtube.com/embed/UKA7JkV51Jw" 
             title="Trailer do Filme"
             frameborder="0"
@@ -95,7 +132,7 @@
     
     
 
-    <div class="container">
+    <div class="container" id="personagens">
             <h2>Personagens Principais</h2>
             <div class="grid">
                 <div class="card">

@@ -3,16 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/god_war.css">
     <title>God Of War III</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PortalMídia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#criadores">Desenvolvedores</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre_jogo">Sobre o Jogo</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#enredo">Enredo</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#trailer">Trailer</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#personagens">Personagens</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <header>
     <h1><span>Jogo: </span>God Of War 3</h1>
     </header>
     <button onclick="history.back()">Voltar</button>
     <div class="container">
-        <section class="intro">
+        <section class="intro" id="sobre">
             <h2>Sobre a Pagina</h2>
             <p>Bem-vindo à página dedicada a God of War 3, um dos jogos mais icônicos da história dos videogames! 🎮🔥 Aqui, exploramos em detalhes a épica jornada de Kratos, o Fantasma de Esparta, em sua incansável busca por vingança contra os deuses do Olimpo. Após ser traído e morto por Zeus, Kratos retorna do submundo com um único objetivo: destruir aqueles que o enganaram e tomar o trono dos deuses para si.
 
@@ -24,7 +59,7 @@
         </section>
     </div>
 
-    <div class="container">
+    <div class="container" id="criadores">
         <h2>🏗️ Criadores e Desenvolvedores</h2>
         <table class="elenco-table" align="center">
             <thead>
@@ -63,7 +98,7 @@
     </div>
 
     <div class="container">
-        <section class="intro">
+        <section class="intro" id="sobre_jogo">
             <h2>Sobre God Of War III</h2>
             <p>Lançado em 16 de março de 2010 para PlayStation 3, God of War 3 é o terceiro título principal da aclamada franquia da Santa Monica Studio, publicada pela Sony Computer Entertainment. O jogo encerra a trilogia original, trazendo o desfecho épico da jornada de vingança de Kratos contra os deuses do Olimpo.</p>
             <p>A história começa exatamente onde God of War 2 terminou, com Kratos e os Titãs escalando o Monte Olimpo para enfrentar Zeus. Consumido pelo ódio e pela sede de vingança, Kratos atravessa cenários colossais, enfrenta deuses poderosos como Poseidon, Hades e Hércules, e descobre a verdade por trás de seu destino. Com batalhas cinematográficas e uma jogabilidade brutal, o jogo elevou os padrões de ação e narrativa da indústria.</p>
@@ -73,7 +108,7 @@
     </div>
 
     <div class="container">
-        <section class="intro">
+        <section class="intro" id="enredo">
             <h2>Enredo</h2>
             <p>Em God of War 3, Kratos embarca em uma jornada épica que o leva ao coração do Olimpo, em busca de um objetivo que pode mudar o destino do mundo. Em meio ao caos, ele precisa enfrentar desafios mortais, superar obstáculos colossais e confrontar seres poderosos que tentarão impedi-lo de seguir adiante.</p>
             <p>Ao longo do caminho, Kratos descobre segredos ocultos sobre sua própria existência e sobre as forças que governam o mundo. Movido por um desejo inabalável, ele atravessa cenários imponentes, desde as alturas do Monte Olimpo até os domínios mais profundos e sombrios. Com cada batalha travada, ele se aproxima de seu objetivo final, mas também enfrenta dilemas que testarão sua força, sua determinação e o verdadeiro significado de sua jornada.</p>
@@ -81,7 +116,7 @@
         </section>
     </div>
 
-    <div class="container">
+    <div class="container" id="trailer">
         <h2>Trailer do Jogo</h2>
         <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/sGP6PZJMHvc" 
@@ -92,9 +127,7 @@
         </iframe>
     </div>
     
-    
-
-    <div class="container">
+    <div class="container" id="personagens">
             <h2>Personagens Principais</h2>
             <div class="grid">
                 <div class="card">
