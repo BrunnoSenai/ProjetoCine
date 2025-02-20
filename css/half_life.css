@@ -21,7 +21,8 @@ header {
 }
 
 .intro {
-    text-align: center;
+    text-align: justify;
+    font-weight: 500;
     margin-bottom: 30px;
     background: #f7f5d7b0; 
     padding: 20px;
