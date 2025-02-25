@@ -1,0 +1,145 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images2.alphacoders.com/137/1374984.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fffb00;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #1d4e89b9; /* Azul escuro para remeter ao tema */
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.intro {
+    text-align: justify;
+    font-weight: 500;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.7); /* Fundo mais suave */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.elenco-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.elenco-table th, .elenco-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.elenco-table th {
+    background-color: #1d4e89; /* Azul escuro */
+    color: #fff;
+}
+
+.elenco-table tr:nth-child(even) {
+    background-color: #f1f1f1; /* Tom mais suave para as linhas pares */
+}
+
+.elenco-table tr:hover {
+    background-color: #ff6600; /* Cor vibrante no hover */
+    color: #fff;
+}
+
+.elenco-table td {
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ff6600; /* Cor vibrante, associada ao Sonic */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: #eb8787bb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 280px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 300px;
+    height: 400px;
+    
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.25rem; 
+    color: #000000;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #000000;
+    margin: 0 10px 20px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #000;
+    margin: 0 10px 20px;
+}
+
+footer {
+    background-color: #1d4e89; /* Azul escuro para o footer */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff9d00;
+    text-decoration: underline;
+}
