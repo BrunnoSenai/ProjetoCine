@@ -50,13 +50,20 @@ h1, h2 {
 }
 
 .grid {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
     justify-items: center;
     padding: 20px;
 }
 
+#cardfilm{
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
 
 .card {
     background: #87ceeb;
